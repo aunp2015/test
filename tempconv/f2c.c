@@ -4,7 +4,7 @@
 #include <assert.h>
 
 int	f2c(int f) {
-	return (f-32)*1.8;
+	return (f-32)/1.8;
 }
 
 int	main(void) {
