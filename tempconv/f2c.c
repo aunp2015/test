@@ -11,8 +11,11 @@ int	main(void) {
 	int	c;
 
 	c = f2c(32);
+	printf("c = %d\n", c);
 	assert( c == 0 );
+
 	c = f2c(212);
+	printf("c = %d\n", c);
 	assert( c == 100);
 
 	return 0;
